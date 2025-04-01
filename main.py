@@ -42,7 +42,7 @@ def mainMenu():
             break
         elif event == "Mark Attendance":
             window.close()
-            Recognize.recognize_attendence()
+            Recognize.recognize_attendance()
             mainMenu()
             break
         elif event == "View Attendance":

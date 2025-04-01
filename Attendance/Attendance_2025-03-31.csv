@@ -1,0 +1,8 @@
+math Session
+Id,Name,Clock IN Time,Clock OUT Time,Duration,Status
+34,Vaishnavi,18:56:03,18:56:21,0:00:18,Present
+34,Vaishnavi,18:56:27,-,-,Present
+Maths Session
+Id,Name,Clock IN Time,Clock OUT Time,Duration,Status
+34,Vaishnavi,21:17:28,-,-,Present
+34,Vaishnavi,21:17:31,-,-,Present

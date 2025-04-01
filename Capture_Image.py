@@ -36,7 +36,7 @@ def takeImages():
             name = values[1]
             window.close()
     if(is_number(Id) and name.isalpha()):
-        cam = cv2.VideoCapture(2, cv2.CAP_DSHOW)
+        cam = cv2.VideoCapture(0, cv2.CAP_DSHOW)
         detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
         sampleNum = 0
         layout = [ [sg.Text("Please look into the Camera",font='Helvetica 24')],
